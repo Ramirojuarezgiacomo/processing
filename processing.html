@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Processing – Proyectos</title>
+  <link rel="stylesheet" href="../css/processing.css">
+
+</head>
+
+<body>
+
+  <a class="back" id="regresar" href="https://ramirojuarezgiacomo.github.io/ux-ui-2026" aria-label="Volver al portfolio">
+    <img class="back-icon"  src="../img/regresar.png" alt="Volver al portfolio">
+  </a>
+
+
+  <main class="project-content">
+    <!-- HEADER -->
+    <div class="content-panel">
+      <header class="project-header">
+        <h1>Processing & p5.js</h1>
+        <p class="subtitle">
+          Programación creativa · Interacción · Exploración visual
+        </p>
+
+        <p class="meta">
+          Trabajos académicos y experimentales
+        </p>
+
+        <p class="role">
+          <strong>Herramientas:</strong> Processing · p5.js · Interacción con mouse, sonido y cámara
+        </p>
+
+        <!-- BOTONES -->
+        <div class="tabs">
+          <button class="tab-btn reciente active" onclick="openTab('tp0')">Narrativa audiovisual con Blender</button>
+          <button class="tab-btn" onclick="openTab('tp1')">Obra interactiva con voz</button>
+          <button class="tab-btn favorito" onclick="openTab('tp2')">CHAYANNE GAME</button>
+          <button class="tab-btn" onclick="openTab('tp3')">HUNTING DAY</button>
+          <button class="tab-btn" onclick="openTab('tp4')">Ilusión óptica interactiva</button>
+          <button class="tab-btn" onclick="openTab('tp5')">Otros proyectos</button>
+        </div>
+      </header>
+<!-- TP 0 BLENDER -->
+      <section id="tp0" class="tab-content active">
+
+        <div class="text-block">
+          <div class="project-info">
+            <h2>Narrativa audiovisual con Blender</h2>
+
+            <p class="subtitle">
+              Animación 3D · Adaptación audiovisual de un fragmento literario
+            </p>
+
+            <p class="meta">
+              Proyecto académico · Trabajo grupal · 2023
+            </p>
+
+  <p class="meta role-meta">
+              <strong>Mi rol:</strong> Modelado 3D de personajes · Investigación visual ·
+              Exploración sonora · Diseño de atmósfera · Ideación de transiciones espaciales
+            </p>
+
+            <p class="meta meta-ux">
+<strong>UX/UI:</strong>
+<i>Diseño de narrativa espacial en entornos 3D</i>
+<i>Experiencia audiovisual mediante recorrido de cámara</i>
+<i>Construcción de atmósfera visual y sonora</i>
+<i>Dirección del punto de vista del espectador</i>
+<i>Transiciones espaciales como recurso narrativo</i>
+<i>Diseño de experiencia inmersiva</i>
+</p>
+          </div>
+
+
+ <div class="bloque-boceto bloque-boceto-blender">
+
+              <img src="../img/blender/mano.PNG" class="media-boceto">
+              <div class="texto-intro">
+                <h3>🔍📖 Contexto del proyecto</h3>
+          <p>Este proyecto grupal explora la narrativa audiovisual mediante programación de cámaras 
+            y construcción de escenarios en 3D. El ejercicio consistía en seleccionar un fragmento 
+            literario y reinterpretarlo visualmente a través de un recorrido espacial que priorizara 
+            el clima, la atmósfera y el punto de vista narrativo. La obra elegida fue Fahrenheit 451 
+            de Ray Bradbury, una novela distópica sobre la censura y la quema de libros, cuyo universo 
+            conceptual sirvió como punto de partida para construir el clima audiovisual del proyecto.</p>
+<p>
+Dentro del equipo, mi aporte se centró en el diseño y modelado de personajes en estilo low-poly, 
+definiendo su estética a partir de una investigación visual. También exploré sonidos ambientales 
+para reforzar la tensión del recorrido y propuse transiciones espaciales —como puertas y túneles— 
+para marcar cambios de escena y de estado emocional.</p>
+              </div>
+            </div>
+
+          
+<div class="bloque-boceto bloque-boceto-blender">
+              <img src="../img/blender/libro.png" class="media-boceto">
+              <div class="texto-intro">
+                <h3>Fragmento seleccionado y enfoque narrativo</h3>
+                <p>Se trabajó a partir de un fragmento del capítulo “La chimenea y la salamandra”,
+            centrado en los pensamientos de Montag durante la quema de libros y el sacrificio
+            de una mujer que decide morir junto a ellos. El texto plantea una escena de alto impacto
+            simbólico, atravesada por el fuego, la resistencia y la duda moral.
+            La adaptación no buscó una representación literal del texto, sino una traducción sensorial
+            y espacial, utilizando el movimiento de cámara, la escala del entorno y la relación entre
+            personajes para transmitir tensión, solemnidad y extrañamiento.</p>
+
+              </div>
+
+            </div>
+
+<div class="bloque-boceto bloque-boceto-blender">
+<img src="../img/blender/moodboard.png" class="media-boceto">
+<div class="texto-intro">
+<h3>Investigación visual y moodboard</h3>
+<p>
+Antes de comenzar el modelado se realizó una búsqueda de referencias
+visuales para definir el clima del proyecto. El moodboard reunió
+imágenes relacionadas con fuego, oscuridad, arquitectura y
+representaciones de personajes, que sirvieron como guía estética
+para el modelado y la construcción del entorno.
+</p>
+</div>
+</div>
+
+
+          <h3>Desarrollo visual y espacial en Blender</h3>
+          <p>El proyecto se desarrolló íntegramente en Blender, donde se construyó un terreno
+            tridimensional que funciona como escenario narrativo. Dentro de este espacio se modelaron
+            los personajes y elementos clave, generando un recorrido de cámaras que atraviesa el entorno
+            de forma controlada.
+            Las cámaras se desplazan dentro del modelo siguiendo trayectorias programadas, simulando una mirada
+            externa que observa la escena sin intervenir, reforzando la sensación de vigilancia y distancia
+            emocional propia del universo de Fahrenheit 451.</p>
+
+
+            <div class="media-row media-row-3">
+
+              <div class="media-item">
+
+                <img src="../img/blender/modelos.png">
+
+                <p><b>Referencias visuales para modelar</b></p>
+
+                <p>
+                  Con estos modelos se comenzó a tener de referencia para posiciones y demás para seguir
+                  avanzando mientras se crean los modelos, también de referencia visual para saber
+                  que inspiración o demás. Son modelos descargados de internet.
+                </p>
+
+              </div>
+
+              <div class="media-item">
+
+                <img src="../img/blender/modelo.png">
+
+                <p><b>Modelo de la anciana</b></p>
+
+                <p>
+                  Realicé este modelo de blender siguiendo tutoriales sobre la anatomia
+                  en cuanto su pelo solo hice bolitar y luego le reduci todo en low low-poly.
+                  Los bomberos utlizamos el cuerpo de la anciana solo que le hice un sombrero.
+                </p>
+
+              </div>
+
+
+              <div class="media-item">
+
+                <img src="../img/blender/vieja.PNG"
+                  alt="Entorno interactivo del dojo">
+
+                <p><b>Modelo final</b></p>
+
+                <p>
+                  El modelo final de la anciana, con color rojizo, no se le dió mucha 
+                  importancia a la textura ya que se estaría incendiando fuego,
+                  por eso el color rojo. Los bomberos tienen alguna textura
+                  amarillas sencillas.
+                </p>
+
+              </div>
+            </div>
+
+<div class="bloque-boceto bloque-boceto-blender">
+            <video class="media-boceto" controls muted playsinline >
+              <source src="../videos/blender/tunel.mp4" type="video/mp4">
+              
+            </video>
+
+ <div class="texto-intro">
+<h3>Recorrido, transiciones y atmósfera</h3>
+
+<p>
+Las transiciones cumplen un rol narrativo clave dentro de la pieza.
+Elementos como puertas y túneles funcionan como umbrales simbólicos,
+permitiendo pasar de un espacio a otro sin cortes bruscos y manteniendo
+la continuidad del relato.
+</p>
+
+<p>
+El recorrido de cámara fue pensado como una experiencia progresiva,
+donde el espectador se introduce gradualmente en la escena,
+acompañando el clima de inquietud y reflexión que atraviesa
+el fragmento literario.
+</p>
+
+<p>
+Para reforzar esta experiencia se trabajó también el diseño sonoro
+a partir de sonidos ambientales y texturas sutiles, evitando
+musicalizaciones evidentes. El objetivo fue sostener la sensación
+de vacío y tensión del espacio sin distraer del recorrido visual.
+</p>
+</div>
+</div>
+
+
+<div class="bloque-boceto bloque-boceto-blender">
+              <img src="../img/blender/vista-escalera.PNG" class="media-boceto">
+              <div class="texto-intro">
+                <h3>👓 Aprendizajes</h3>
+<p>
+Más allá del resultado visual, el proceso funcionó como una traducción narrativa donde el espacio, el tiempo y el movimiento reemplazan a la palabra escrita, guiando la mirada del espectador a través del entorno.
+</p>
+
+<p>
+Además, el proyecto me ayudó a animarme a modelar en 3D, algo que al principio me generaba inseguridad y miedo teniendo cierta dificultad. Con práctica y paciencia fui entendiendo el proceso y terminó siendo una experiencia muy disfrutable, que me permitió crear formas y personajes que no imaginaba al comienzo.
+</p>
+              </div>
+            </div>
+
+
+<div class="experiencia-layout">
+  <!-- IZQUIERDA -->
+  <div class="experiencia-left">
+          <div class="pdfs" style="margin-top: 0">
+            <h3>Documentación del proyecto</h3>
+
+            <details>
+              <summary>📄 Guión y procesos </summary>
+              <iframe src="../docs/projects/fahrenheit/fahrenheit.pdf"></iframe>
+
+          </div>
+  </div>
+
+  <!-- DERECHA -->
+  <div class="experiencia-right">
+            <h3>Experiencia</h3>
+
+          <iframe src="https://ramirojuarezgiacomo.github.io/Portfolio/web04/index.html" width="100%" height="550"
+            style="border:none; margin-top:20px; height: 400px;" loading="lazy">
+          </iframe>
+
+          <a class="project-link" href="https://ramirojuarezgiacomo.github.io/Portfolio/web04/index.html"
+            target="_blank">
+            🔗 Ver proyecto narrativo
+          </a>
+    
+</div>
+</div> 
+
+
+
+
+
+        </div>
+
+      </section>
+
+      <!-- TP1 VOZ -->
+      <section id="tp1" class="tab-content">
+        <div class="text-block">
+          <div class="project-info">
+            <h2>Obra interactiva con voz</h2>
+
+            <p class="subtitle">
+              Programación creativa · Visual generativo con interacción al sonido
+            </p>
+
+            <p class="meta">
+              Proyecto académico · Trabajo grupal · p5.js · 2023
+            </p>
+
+  <p class="meta role-meta">
+              <strong>Mi rol:</strong> Investigación de referentes interactivos ·
+              Diseño visual de la composición · Desarrollo en p5.js ·
+              Revisión de errores y soporte técnico durante la programación
+            </p>
+<p class="meta meta-ux">
+<strong>UX/UI:</strong>
+<i>Diseño de interacción mediante sonido y voz</i>
+<i>Relación acción–respuesta en tiempo real</i>
+<i>Feedback visual a partir de entrada de audio</i>
+<i>Exploración de interfaces generativas</i>
+<i>Comprensión de interacción usuario–sistema</i>
+<i>Experimentación con programación creativa</i>
+</p>
+          </div>
+
+<div class="bloque-boceto bloque-boceto-voz">
+<video controls class="media-boceto">
+  <source src="../videos/voz/explicacion.mp4" type="video/mp4">
+</video>
+
+<div class="texto-intro">
+<h3>🔍 Concepto e interacción</h3>
+<p>
+Esta obra interactiva explora el sonido y la voz como forma de interacción directa con una
+    composición visual generativa. La intensidad del audio capturado por el micrófono modifica
+    parámetros visuales en tiempo real.
+<br>
+Gestos simples como hablar o aplaudir activan el sistema y producen respuestas visuales
+    inmediatas, generando cambios en el color y la posición de los elementos en pantalla y
+    reforzando la relación de causa–efecto entre el usuario y la obra.
+<br>
+Dentro del trabajo grupal participé en la investigación de referentes interactivos, el diseño
+    visual de la composición y el desarrollo en p5.js junto con mis compañeros, además de colaborar
+    en la revisión de errores durante la programación.
+</p>
+</div>
+</div>
+
+
+<div class="bloque-boceto bloque-boceto-voz">
+
+  <div class="media-col">
+    <img src="../videos/voz/autor.png" class="media-boceto">
+    <p class="media-caption">Autor: Michelle Calkins</p>
+  </div>
+<div class="texto-intro">
+  <h3>🎨 Búsqueda de referentes artísticos</h3>
+
+<p>
+La primera etapa consistió en investigar distintas obras interactivas basadas en sonido y voz. 
+A partir de este análisis se seleccionó un referente artístico viable de implementar, priorizando 
+artistas menos difundidos.
+<br>
+Esta referencia permitió definir una interacción clara entre sonido y respuesta visual, 
+orientando tanto el diseño de la pieza como su desarrollo técnico.
+</p>
+</div>
+</div>
+
+
+<h3>💻 Proceso y desarrollo técnico</h3>
+<p>
+La obra fue desarrollada en p5.js utilizando la entrada de micrófono para analizar niveles de 
+sonido y traducirlos a variables visuales.
+<br>
+La composición está formada por cuadros abstractos que cambian color y posición según la 
+intensidad del audio detectado, permitiendo que el usuario comprenda rápidamente cómo sus 
+acciones influyen en la obra.
+</p>
+
+<p class="process-text">
+Durante el desarrollo se realizaron distintos prototipos para explorar
+cómo traducir el sonido en comportamiento visual. Estas pruebas permitieron
+ajustar la relación entre intensidad de audio y respuesta en pantalla,
+definiendo progresivamente la lógica final de la obra.
+</p>
+
+<div class="media-row media-row-2">
+
+<div class="media-item">
+<video controls muted style="width:100%; height:300px; object-fit: cover;">
+  <source src="../videos/voz/prototipo00.mp4" type="video/mp4">
+</video>
+<p class="mini-caption">
+Primeras pruebas en Processing centradas en la alineación y generación de formas.
+</p>
+</div>
+
+<div class="media-item">
+<video controls muted style="width:100%; height:300px; object-fit: cover;">
+  <source src="../videos/voz/prototipo01.mp4" type="video/mp4">
+</video>
+<p class="mini-caption">
+Transición a p5.js y exploración de la relación entre intensidad sonora, color y movimiento.
+</p>
+</div>
+
+</div>
+
+
+
+
+<div class="experiencia-layout">
+
+  <!-- IZQUIERDA -->
+  <div class="experiencia-left">
+<h3>👓 Aprendizajes</h3>
+    <p>
+    El proyecto funcionó como una exploración entre sonido, imagen y usuario dentro de un sistema interactivo.
+    La experiencia permitió integrar investigación artística, diseño visual y programación, comprendiendo
+    cómo una acción simple del usuario puede generar respuestas visuales en tiempo real.
+    </p>
+    <p>
+    Durante el desarrollo aparecieron limitaciones en el sistema de detección de sonido, que no siempre
+    respondía con precisión. Esto permitió identificar problemas técnicos y comprender mejor el
+    funcionamiento de la entrada de audio en p5.js.
+    </p>
+
+<div class="pdfs" style="margin-top: 32px;">
+            <h3>Documentación del proyecto</h3>
+            <details>
+              <summary>📄 Artista y obra </summary>
+              <iframe src="../docs/projects/vozinteraccion/vozinteraccion.pdf" style="height: 250px;"></iframe>
+            </details>
+<details>
+<summary>🔗 Ver prototipos interactivos</summary>
+        <div class="prototipos-grid-custom">
+          <div class="prototipos-col-custom">
+            <ul>
+  <li><a href="https://editor.p5js.org/teisun/full/FSy8ou1YO" target="_blank">Prototipo 1</a></li>
+  <li><a href="https://editor.p5js.org/teisun/full/UXQIKKjHJ" target="_blank">Prototipo 2</a></li>
+  <li><a href="https://editor.p5js.org/teisun/full/iPjK9TsbF" target="_blank">Prototipo 3</a></li>
+    <li><a href="https://editor.p5js.org/teisun/full/dOO534vQ4" target="_blank">Prototipo 4</a></li>
+    </ul>
+</div>
+
+<div class="divider-vertical"></div>
+
+<div class="prototipos-col-custom">
+  <ul>
+  <li><a href="https://editor.p5js.org/teisun/full/ifbWNlhQI" target="_blank">Prototipo 5</a></li>
+  <li><a href="https://editor.p5js.org/teisun/full/r8mIo8dtk" target="_blank">Prototipo 6</a></li>
+  <li><a href="https://editor.p5js.org/teisun/full/Z6qOVVc8D" target="_blank">Prototipo 7</a></li>
+</ul>
+</div>
+</div>
+</details>
+          </div>
+  </div>
+
+  <!-- DERECHA -->
+  <div class="experiencia-right">
+    <h3>Experiencia</h3>
+
+    <iframe src="https://editor.p5js.org/teisun/full/ybwLZbltY" loading="lazy"></iframe>
+
+    <a class="project-link"
+      href="https://ramirojuarezgiacomo.github.io/Portfolio/web03/index.html"
+      target="_blank">
+      🔗 Abrir en nueva pestaña
+    </a>
+
+    
+</div>
+</div>
+
+
+
+        </div>
+      </section>
+
+      <!-- TP2 CHAYANNE -->
+      <section id="tp2" class="tab-content">
+        <div class="text-block">
+          <div class="project-info">
+            <h2>CHAYANNE GAME</h2>
+
+            <p class="subtitle">
+              Videojuego 2D · Juego de caída vertical inspirado en NS-Shaft
+            </p>
+
+            <p class="meta">
+              Proyecto académico · Trabajo individual · Processing · 2022
+            </p>
+
+  <p class="meta role-meta">
+              <strong>Mi rol:</strong> Diseño de mecánicas de juego · Adaptación y personalización del código base ·
+              Diseño visual del personaje · Implementación de plataformas y sistema de puntaje ·
+              Estructura de pantallas y navegación del juego
+            </p>
+
+            <p class="meta meta-ux">
+<strong>UX/UI:</strong>
+<i>Diseño de mecánicas de juego</i>
+<i>Feedback visual en plataformas y estados del jugador</i>
+<i>Lectura espacial y toma de decisiones en tiempo real</i>
+<i>Estructura de pantallas y navegación del juego</i>
+<i>Sistema de puntaje y progresión</i>
+<i>Iteración y personalización de gameplay</i>
+</p>
+          </div>
+
+
+<div class="bloque-boceto bloque-boceto-chayanne">
+
+<img src="../img/chayanne/chayanne.png" class="media-boceto" style="object-fit: contain;">
+
+<div class="texto-intro">
+<h3>🔍📖 Contexto y concepto del juego</h3>
+
+<p>
+Proyecto individual desarrollado en Processing, inspirado en los juegos de caída vertical
+como NS-Shaft. A partir de un tutorial base, el proyecto fue adaptado y personalizado
+tanto en lo estético como en lo lúdico, incorporando decisiones propias en mecánicas,
+diseño visual y estructura del juego.
+</p>
+
+<p>
+El jugador controla una versión caricaturesca de Chayanne que cae constantemente
+en un entorno vertical. El objetivo es mantenerse en el aire el mayor tiempo posible,
+evitando la caída y alcanzando una meta de 30 puntos, lo que introduce una lógica
+de supervivencia y desafío progresivo.
+</p>
+</div>
+          </div>
+
+<div class="bloque-boceto bloque-boceto-chayanne">
+<video controls muted playsinline class="media-boceto">
+<source src="../videos/chayanne/chayanne.mp4" type="video/mp4">
+</video>
+
+<div class="texto-intro">
+<h3>Gameplay y sistema del juego</h3>
+<p>
+A lo largo del recorrido, el jugador interactúa con distintos tipos de plataformas con
+comportamientos específicos. Algunas superficies son estables y permiten avanzar con
+seguridad, mientras que otras son deslizantes y dificultan el control del personaje.
+También aparecen bloques que reducen la vida del jugador y plataformas de rebote que
+modifican el ritmo del descenso.
+</p>
+
+<p>
+Esta variedad obliga a tomar decisiones rápidas y a leer el espacio de forma constante,
+manteniendo la tensión del gameplay y la atención del jugador.
+</p>
+
+<p>
+El juego se organiza mediante un sistema de pantallas que separa claramente el inicio,
+la partida, las pantallas de resultado (victoria y derrota) y una pantalla de créditos.
+Esta estructura permitió trabajar la lógica de estados dentro de Processing y presentar
+el proyecto como un videojuego completo, más allá de una simple prueba técnica.
+</p>
+
+<p>
+Durante la partida, el jugador debe mantenerse en el aire el mayor tiempo posible y
+alcanzar una meta de 30 puntos para ganar, lo que introduce una lógica de desafío
+progresivo basada en supervivencia.
+</p>
+</div>
+
+</div>
+
+<div class="bloque-boceto bloque-boceto-chayanne">
+
+<div class="icon-block">
+
+<span class="icon">🎵</span>
+
+<audio controls >
+  <source src="../audio/chayanne/chayanneSong.wav" type="audio/wav">
+</audio>
+
+</div>
+
+<div class="texto-intro">
+<h3>Diseño visual y sonoro</h3>
+
+<p>
+En el aspecto sonoro se incorporó música instrumental de Chayanne, lo que refuerza
+el tono humorístico y paródico del juego.
+</p>
+
+<p>
+La identidad visual combina una representación caricaturesca del personaje con
+fondos simples inspirados en estética pixel art. Para la pantalla inicial se utilizó
+una imagen de cielo y pasto como referencia visual al género de videojuegos retro,
+mientras que durante la partida el escenario mantiene un fondo de cielo con nubes
+en estilo pixel que permanece constante durante el descenso.
+</p>
+
+<p>
+El juego también utiliza pantallas de resultado simples para comunicar el estado de
+la partida. Al perder aparece una imagen de una esfera roja enojada, mientras que al
+ganar se muestra una esfera amarilla felicitando al jugador, reforzando el tono
+humorístico del proyecto mediante referencias visuales reconocibles.
+</p>
+</div>
+
+
+</div>
+  
+<div class="bloque-boceto bloque-boceto-chayanne">
+
+<img src="../img/chayanne/chayanne2.jpg" class="media-boceto">
+
+<div class="texto-intro">
+
+<h3>👓 Aprendizajes</h3>
+<p>
+Este proyecto implicó explorar la relación entre programación interactiva, diseño de
+mecánicas y construcción de una experiencia jugable. A partir de la adaptación de un
+tutorial base, el proceso se centró en comprender cómo pequeñas decisiones de diseño
+pueden modificar el ritmo, la dificultad y la lógica del juego.
+</p>
+
+<p>
+El desarrollo permitió experimentar con la implementación de plataformas con
+comportamientos distintos, el sistema de puntaje y la organización de estados dentro
+de Processing, integrando programación, diseño visual y estructura de navegación en
+un mismo proyecto.
+</p>
+
+<p>
+Chayanne Game funciona así como un ejercicio de aprendizaje en diseño de videojuegos,
+donde la adaptación de referencias existentes, la experimentación con mecánicas y el
+uso del humor como recurso conceptual permitieron construir una experiencia interactiva
+con identidad propia.
+</p>
+</div>
+</div>
+
+<h3>Experiencia</h3>
+            <iframe src="https://openprocessing.org/sketch/2876491/embed/" width="100%" height="700"></iframe>
+          <a class="project-link" href="https://openprocessing.org/sketch/2876491"
+            target="_blank">
+            🔗 Ver completo
+          </a>
+          
+          </div>
+      </section>
+
+      <!-- TP3 DUCK -->
+      <section id="tp3" class="tab-content">
+
+        <div class="text-block">
+          <div class="project-info">
+            <h2>Hunting Day</h2>
+
+            <p class="subtitle">
+              Videojuego 2D · Recreación interactiva inspirada en Duck Hunt
+            </p>
+
+            <p class="meta">
+              Proyecto académico · Trabajo grupal · Processing · 2022
+            </p>
+
+  <p class="meta role-meta">
+              <strong>Mi rol:</strong> Adaptación de recursos visuales · Implementación de efectos de sonido ·
+              Diseño de textos y elementos en pantalla · Desarrollo de botones y pantallas de estado
+              (victoria, derrota y créditos) · Integración visual y sonora con la lógica del juego
+            </p>
+
+            <p class="meta meta-ux">
+<strong>UX/UI:</strong>
+<i>Diseño de interfaz para videojuego 2D</i>
+<i>Feedback visual y sonoro en acciones del jugador</i>
+<i>Diseño de textos y elementos informativos en pantalla</i>
+<i>Estados del sistema: victoria, derrota y créditos</i>
+<i>Diseño de botones y navegación entre pantallas</i>
+<i>Integración visual con la lógica del juego</i>
+</p>
+          </div>
+
+
+<div class="bloque-boceto bloque-boceto-duck">
+
+
+<img src="../img/duck/inicio.png" class="media-boceto">
+
+<div class="texto-intro">
+<h3>🔍📖 Concepto del proyecto</h3>
+
+<p>
+Hunting Day es un videojuego 2D desarrollado en Processing inspirado en el
+clásico Duck Hunt. El objetivo del proyecto fue recrear su dinámica de juego,
+su estética visual y la lógica que caracteriza al título original.
+</p>
+
+<p>
+La propuesta buscó reproducir la experiencia de caza de patos voladores
+manteniendo elementos característicos del juego clásico como el sistema de
+puntaje, los tiempos de espera entre rondas y sus estados de victoria o derrota.
+</p>
+
+<p>
+Incluso se conservaron ciertas limitaciones visuales propias de la época,
+como la baja legibilidad del puntaje, para mantener la identidad del juego
+original y reflexionar sobre cómo esas decisiones técnicas también forman
+parte de su diseño.
+</p>
+</div>
+          </div>
+
+<h3>Mi rol en el proyecto</h3>
+
+<div class="media-row-2">
+<div class="media-item">
+<p><b>Diseño visual</b></p>
+<ul>
+<li>Adaptación de gráficos inspirados en Duck Hunt</li>
+<li>Diseño de textos y elementos en pantalla</li>
+<li>Integración estética del sistema de puntaje</li>
+</ul>
+</div>
+
+<div class="media-item">
+  <p><b>Sonido e interacción</b></p>
+<ul>
+<li>Implementación de efectos de sonido</li>
+<li>Desarrollo de botones interactivos</li>
+<li>Pantallas de victoria, derrota y créditos</li>
+</ul>
+</div>
+
+</div>
+
+
+<div class="bloque-boceto bloque-boceto-duck">
+<div class="texto-intro">
+<h3>Trabajo colaborativo y desarrollo</h3>
+
+<p>
+La programación principal del juego —movimiento de los patos, sistema de
+disparo, mira, puntaje y mecánicas jugables— fue desarrollada por otro
+integrante del equipo.
+</p>
+
+<p>
+Mi trabajo consistió en integrar estos sistemas con el diseño visual
+y sonoro del proyecto, desarrollando las pantallas del juego y los
+elementos de interfaz necesarios para completar la experiencia.
+</p>
+
+<p>
+El trabajo grupal permitió articular distintas áreas del desarrollo
+de videojuegos y coordinar decisiones técnicas y estéticas dentro
+de un mismo proyecto.
+</p>
+</div>
+<img src="../img/duck/perro_olfato.gif" class="media-boceto" style="object-fit: contain;">
+
+</div>
+
+<div class="bloque-boceto bloque-boceto-duck">
+
+
+<img src="../img/duck/perropato.png" class="media-boceto" style="object-fit: contain;">
+
+<div class="texto-intro">
+<h3>👓 Aprendizajes</h3>
+
+<p>
+El proyecto permitió explorar el proceso de adaptación de un videojuego
+clásico, analizando cómo las decisiones técnicas, visuales y de interacción
+construyen la identidad de una experiencia lúdica.
+</p>
+
+<p>
+También implicó trabajar de forma colaborativa en el desarrollo de un
+sistema interactivo, integrando programación, diseño visual y sonido
+para construir un videojuego completo dentro de Processing.
+</p>
+</div>
+
+</div>
+
+<h3>Experiencia</h3>
+          <iframe src="https://openprocessing.org/sketch/2876523/embed/" width="100%" height="700"></iframe>
+                  <a class="project-link" href="https://openprocessing.org/sketch/2876523"
+            target="_blank">
+            🔗 Ver completo
+          </a>
+        </div>
+      </section>
+
+      <!-- TP4 ILUSION -->
+      <section id="tp4" class="tab-content">
+        <div class="text-block">
+          <div class="project-info">
+            <h2>Ilusión óptica interactiva</h2>
+
+            <p class="subtitle">
+              Programación creativa · Experimento visual basado en percepción e interacción
+            </p>
+
+            <p class="meta">
+              Proyecto académico · Trabajo individual · Processing · 2022
+            </p>
+
+  <p class="meta role-meta">
+              <strong>Mi rol:</strong> Diseño conceptual de la ilusión óptica ·
+              Programación del sistema visual interactivo · Desarrollo de animación rotatoria ·
+              Implementación de interacción mediante movimiento del mouse
+            </p>
+
+            <p class="meta meta-ux">
+<strong>UX/UI:</strong>
+<i>Diseño de interacción mediante movimiento del cursor</i>
+<i>Feedback visual en tiempo real</i>
+<i>Exploración perceptiva a través de animación generativa</i>
+<i>Relación acción–respuesta entre usuario y sistema</i>
+<i>Diseño de comportamiento visual dinámico</i>
+<i>Experimentación con programación creativa</i>
+</p>
+          </div>
+
+<h3>🔍📖 Concepto</h3>
+
+<p>
+Proyecto individual orientado a la exploración de la percepción visual
+a través de programación creativa en Processing.
+</p>
+
+<p>
+La propuesta consiste en una ilusión óptica interactiva construida a partir
+de líneas geométricas que reaccionan al movimiento del usuario,
+generando variaciones de escala y rotación en tiempo real.
+</p>
+
+<p>
+El proyecto investiga cómo pequeñas modificaciones en la estructura
+geométrica de una imagen pueden producir sensaciones de profundidad,
+movimiento y distorsión perceptiva.
+</p>
+
+
+<div class="bloque-boceto">
+
+  <div class="texto-intro">
+<h3>Sistema visual e interacción</h3>
+<div class="mini-grid">
+
+<div class="mini-item">
+<p><b>⚙️ Construcción visual</b></p>
+
+<p>
+La pieza se construye a partir de un círculo formado por múltiples líneas
+entrelazadas que generan una trama geométrica densa. El sistema mantiene
+un movimiento de rotación constante, creando una sensación de flujo continuo.
+</p>
+
+</div>
+
+<div class="mini-item">
+  <p><b>💻 Interacción</b></p>
+
+<p>
+La posición del mouse modifica el tamaño del sistema visual. Al acercarse
+al centro la figura se contrae, mientras que al desplazarse hacia el
+exterior se expande, generando una sensación de zoom dinámico.
+</p>
+
+</div>
+
+</div>
+</div>
+
+<div class="divider-vertical"></div>
+
+<div class="texto-intro">
+          <h3>Experiencia perceptiva</h3>
+
+          <p>
+La combinación de rotación, repetición de líneas y cambios
+de escala genera un efecto visual envolvente que puede
+resultar hipnótico o desorientador.
+</p>
+
+<p>
+La ilusión no se basa en una imagen fija, sino en la
+relación dinámica entre movimiento, interacción y
+respuesta visual del sistema.
+</p>
+
+<p>
+El usuario es invitado a experimentar con el movimiento
+del cursor para descubrir cómo pequeñas variaciones
+modifican la percepción de profundidad y movimiento
+dentro de la figura.
+</p>
+</div>
+</div>
+
+<h3>👓 Aprendizajes</h3>
+
+<p>
+Este proyecto permitió explorar la programación creativa como herramienta
+para la construcción de experiencias visuales interactivas. A través del
+desarrollo de la ilusión óptica, el proceso implicó experimentar con
+estructuras geométricas, movimiento y animación para generar un sistema
+visual dinámico capaz de responder en tiempo real a la interacción del usuario.
+</p>
+
+<p>
+La experiencia también permitió comprender cómo pequeñas variaciones en
+parámetros visuales como la escala, la repetición y la rotación pueden
+modificar significativamente la percepción de profundidad y movimiento
+dentro de una imagen. De esta manera, el proyecto funcionó como un
+ejercicio de exploración entre programación, diseño visual y percepción.
+</p>
+
+<p>
+Más allá del resultado visual, el trabajo consolidó el uso de Processing
+como herramienta para experimentar con comportamiento gráfico e interacción,
+permitiendo construir una pieza donde la imagen no es estática, sino que
+se transforma constantemente a partir de la relación entre sistema y usuario.
+</p>
+
+<h3>Experiencia</h3>
+          <iframe src="https://openprocessing.org/sketch/2876483/embed/" width="100%" height="600"></iframe>
+             <a class="project-link" href="https://openprocessing.org/sketch/2876483"
+            target="_blank">
+            🔗 Ver completo
+          </a>
+        </div>
+      </section>
+
+      <!-- TP5 OTROS -->
+      <section id="tp5" class="tab-content">
+        <div class="text-block">
+          <h2>Otros proyectos de Processing</h2>
+          <p>
+            Existen otros trabajos realizados en Processing que,
+            por limitaciones técnicas, no se encuentran disponibles
+            en formato web.
+          </p>
+
+          <p>
+            Estos proyectos continúan explorando programación creativa,
+            interacción y composición visual.
+            Se pueden descargar para su visualización y ejecución local.
+          </p>
+          <a class="download-btn" href="https://github.com/Ramirojuarezgiacomo/Portfolio/tree/main/Processing"
+            target="_blank">
+            🔗 Ver repositorio de Processing en GitHub
+          </a>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <script src="../js/processing.js"></script>
+</body>
+
+</html>
