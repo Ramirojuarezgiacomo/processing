@@ -19,7 +19,7 @@ body.bg-tp0 {
   background:
     linear-gradient(rgba(0, 0, 0, 0.70),
       rgba(0, 0, 0, 0.70)),
-    url("/img/fondo/processing/vieja.PNG") center / cover no-repeat fixed;
+    url("../img/fondo/processing/vieja.PNG") center / cover no-repeat fixed;
 
   color: #fff;
 }
@@ -30,7 +30,7 @@ body.bg-tp1 {
   background:
     linear-gradient(rgba(0, 0, 0, 0.80),
       rgba(0, 0, 0, 0.80)),
-    url("/img/fondo/processing/cuadrocolores.jpg") center / cover no-repeat fixed;
+    url("../img/fondo/processing/cuadrocolores.jpg") center / cover no-repeat fixed;
 
   color: #fff;
 }
@@ -40,7 +40,7 @@ body.bg-tp2 {
   background:
     linear-gradient(rgba(0, 0, 0, 0.60),
       rgba(0, 0, 0, 0.60)),
-    url("/img/fondo/processing/chayanne.png") center / cover no-repeat fixed;
+    url("../img/fondo/processing/chayanne.png") center / cover no-repeat fixed;
   color: #fff;
 }
 
@@ -49,7 +49,7 @@ body.bg-tp3 {
   background:
     linear-gradient(rgba(0, 0, 0, 0.60),
       rgba(0, 0, 0, 0.60)),
-    url("/img/fondo/processing/duck.jpg") center / cover no-repeat fixed;
+    url("../img/fondo/processing/duck.jpg") center / cover no-repeat fixed;
   color: #fff;
 }
 
@@ -58,7 +58,7 @@ body.bg-tp4 {
   background:
     linear-gradient(rgba(0, 0, 0, 0.60),
       rgba(0, 0, 0, 0.60)),
-    url("/img/fondo/processing/ilusion.png") center / cover no-repeat fixed;
+    url("../img/fondo/processing/ilusion.png") center / cover no-repeat fixed;
 
   color: #fff;
 }
